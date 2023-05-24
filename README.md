@@ -10,4 +10,4 @@ Popular British Science Fiction Linux Distro.
 | Supported Architecture | x86_64            |
 ## Licensing
 Remember, davrOS is free software.
-davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) <b>only</b>.
