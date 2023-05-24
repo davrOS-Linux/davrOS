@@ -1,4 +1,4 @@
-![davrOS](images/davros_logo_banner.png)
+![davrOS](images/davros_logo_banner_lower.png)
 # davrOS
 Popular British Science Fiction Linux Distro.
 ## Info
