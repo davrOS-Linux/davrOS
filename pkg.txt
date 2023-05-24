@@ -21,3 +21,4 @@ vlc
 mpv
 paru
 zsh
+wget
