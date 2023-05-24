@@ -19,3 +19,5 @@ libmad
 libvpx
 vlc
 mpv
+paru
+zsh
