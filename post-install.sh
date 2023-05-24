@@ -28,3 +28,10 @@ if command -v curl >/dev/null 2>&1; then
 else
   sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
 fi
+
+echo "[davrOS]: stage 2.3: configuring hyprland"
+if command -v curl >/dev/null 2>&1; then
+  curl -fsSL https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf)
+else
+  wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf)
+fi
