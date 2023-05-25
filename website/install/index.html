@@ -8,7 +8,17 @@
     <h2>Popular British Science-Fiction Linux Distro.</h2>
     <p>Run this command:</p>
     <div class="codediv">
-        <p class="code">curl -fsSL https://github.com/yuckdevchan/davrOS/blob/main/post-install.sh > davros<br>./davros</p>
-        <button class="code" type="button">📋</button>
+        <p class="code" id="code">curl -fsSL https://github.com/yuckdevchan/davrOS/blob/main/post-install.sh > davros<br>./davros</p>
+        <button class="code" type="button" onclick="clipboard()">📋</button>
     </div>
 </body>
+
+<script>
+  function clipboard() {
+  var code_box = document.getElementById("code");
+  code_box.select();
+  code_box.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(code_box.value);
+  alert("Copied the text: " + copyText.value);
+} 
+</script>
