@@ -28,3 +28,5 @@ chmod +x davros
 ## Licensing
 Remember, davrOS is free software.
 davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) <b>only</b>.
+
+If you would like, you can support davrOS by starring it right here, for free, on GitHub!
