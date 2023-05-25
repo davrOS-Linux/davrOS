@@ -26,3 +26,4 @@ rofi
 waybar
 acpi
 papirus-icon-theme
+prusa-slicer
