@@ -30,3 +30,4 @@ base-devel
 grimshot
 otf-hermit-nerd
 doas
+tauon-music-box
