@@ -9,3 +9,7 @@ body {
     border-radius: 12px;
     border-style: solid;
 }
+
+.codediv {
+    max-width: 500px;
+}
