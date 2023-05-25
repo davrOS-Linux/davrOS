@@ -31,10 +31,17 @@ fi
 
 echo "[davrOS]: stage 2.3: configuring hyprland"
 if command -v curl >/dev/null 2>&1; then
-  curl -fsSL https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf)
+  curl -fsSL https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf
 else
-  wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf)
+  wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf
 fi
 
 mkdir ~/.config/hypr
 mv hyprland.conf ~/.config/hypr/hyprland.conf
+
+echo "[davrOS]: stage 2.4: configuring neofetch"
+
+wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/neofetch/config.conf
+rm -rf ~/.config/neofetch
+mkdir ~/.config/neofetch
+mv config.conf ~/.config/neofetch
