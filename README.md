@@ -43,6 +43,10 @@ chmod +x davros
 ## Hall of Fame
 ### Neofetch Output
 ![neofetch output](images/showcase/neofetch_v3.png)
+## Useful Resources
+- [davrOS Website](https://davros.netlify.app)
+- [Hyprland Wiki](https://wiki.hyprland.org/)
+- [Arch Wiki](https://wiki.archlinux.org/)
 ## Licensing
 Remember, davrOS is free software.
 davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) <b>only</b>.
