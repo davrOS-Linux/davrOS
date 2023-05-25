@@ -53,6 +53,9 @@ mv config.conf ~/.config/neofetch
 
 mv ~/.config /home/$username/.config
 
+echo "[davrOS]: stage 3.0: system config"
+echo "[davrOS]: stage 3.1: display manager / login manager"
+
 read -p "Which display manager should be autostarted?
 1) SDDM (recommended - works fine with Hyprland)
 2) LightDM
