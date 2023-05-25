@@ -29,3 +29,4 @@ prusa-slicer
 base-devel
 grimshot
 otf-hermit-nerd
+doas
