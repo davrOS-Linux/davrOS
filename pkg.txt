@@ -31,3 +31,7 @@ grimshot
 otf-hermit-nerd
 doas
 tauon-music-box
+vscodium-bin
+obs-studio
+kshutdown
+btop
