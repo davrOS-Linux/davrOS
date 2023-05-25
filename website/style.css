@@ -2,3 +2,8 @@ body {
     background-color: black;
     color: white;
 }
+
+.code {
+    border-width: 2px;
+    border-color: white;
+}
