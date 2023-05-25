@@ -15,6 +15,19 @@ fi
 chmod +x davros
 ./davros
 ```
+## Upgrade davrOS
+```shell
+if command -v curl >/dev/null 2>&1; then
+  curl -fsSL "https://davros.netlify.app/upgrade.sh" > davros
+  curl -fsSL "https://davros.netlify.app/pkg.txt" > pkg.txt
+else
+  wget "https://davros.netlify.app/upgrade.sh"
+  wget "https://davros.netlify.app/pkg.txt"
+  mv upgrade.sh davros
+fi
+chmod +x davros
+./davros
+```
 ## Info
 | Component Type         | davrOS Component  |
 |------------------------|-------------------|
