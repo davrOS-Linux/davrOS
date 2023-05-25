@@ -27,3 +27,4 @@ acpi
 papirus-icon-theme
 prusa-slicer
 base-devel
+grimshot
