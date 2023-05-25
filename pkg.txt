@@ -22,3 +22,7 @@ mpv
 paru
 zsh
 wget
+rofi
+waybar
+acpi
+papirus-icon-theme
