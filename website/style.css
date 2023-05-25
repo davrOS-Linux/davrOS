@@ -13,8 +13,9 @@ button {
     border-color: white;
     border-radius: 12px;
     border-style: solid;
+    display:inline
 }
 
 .codediv {
-    max-width: 830px;
+    max-width: 1000px;
 }
