@@ -15,6 +15,11 @@ echo "[davrOS]: stage 1: Package Installation"
 pacman -Syu - < pkg.txt
 
 echo "[davrOS]: stage 2: Configuration"
+
+mkdir ~/.config
+read -p "what is your user account?: " username
+echo "username: $username"
+
 echo "[davrOS]: stage 2.1: Configuring neovim"
 
 # install nvchad (because its epic)
@@ -45,3 +50,5 @@ wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config
 rm -rf ~/.config/neofetch
 mkdir ~/.config/neofetch
 mv config.conf ~/.config/neofetch
+
+mv ~/.config /home/$username/.config
