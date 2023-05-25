@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+button {
+    font-size: 60px;
+}
+
 .code {
     border-width: 2px;
     border-color: white;
