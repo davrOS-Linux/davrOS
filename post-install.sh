@@ -35,3 +35,6 @@ if command -v curl >/dev/null 2>&1; then
 else
   wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf)
 fi
+
+mkdir ~/.config/hypr
+mv hyprland.conf ~/.config/hypr/hyprland.conf
