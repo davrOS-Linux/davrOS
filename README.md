@@ -1,6 +1,20 @@
 ![davrOS](images/davros_logo_banner_lower.png)
 # davrOS
 Popular British Science Fiction Linux Distro.
+## Install
+Run this as root:
+```shell
+if command -v curl >/dev/null 2>&1; then
+  curl -fsSL "https://davros.netlify.app/post-install.sh" > davros
+  curl -fsSL "https://davros.netlify.app/pkg.txt" > pkg.txt
+else
+  wget "https://davros.netlify.app/post-install.sh"
+  wget "https://davros.netlify.app/pkg.txt"
+  mv post-install.sh davros
+fi
+chmod +x davros
+./davros
+```
 ## Info
 | Component Type         | davrOS Component  |
 |------------------------|-------------------|
