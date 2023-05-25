@@ -9,18 +9,18 @@
 <body>
     <img width="720" src="https://github.com/yuckdevchan/davrOS/raw/main/images/davros_logo_banner_lower.png">
     <h2>Popular British Science-Fiction Linux Distro.</h2>
-    <p>Run this command <u>in your user account</u>:</p>
+    <pre>Run this command <u>in your user account</u>:</p>
     <div class="codediv">
-        <p class="code" id="code">if command -v curl >/dev/null 2>&1; then<br>
-  curl -fsSL "https://davros.netlify.app/post-install.sh" > davros<br>
-  curl -fsSL "https://davros.netlify.app/pkg.txt" > pkg.txt<br>
-else<br>
-  wget "https://davros.netlify.app/post-install.sh"<br>
-  wget "https://davros.netlify.app/pkg.txt"<br>
-  mv post-install.sh davros<br>
-fi<br>
-chmod +x davros<br>
-./davros</p>
+        <p class="code" id="code">if command -v curl >/dev/null 2>&1; then
+  curl -fsSL "https://davros.netlify.app/post-install.sh" > davros
+  curl -fsSL "https://davros.netlify.app/pkg.txt" > pkg.txt
+else
+  wget "https://davros.netlify.app/post-install.sh"
+  wget "https://davros.netlify.app/pkg.txt"
+  mv post-install.sh davros
+fi
+chmod +x davros
+./davros</pre>
         <button class="code" type="button" onclick="clipboard()" id="clipboard_button">📋</button>
     </div>
 </body>
