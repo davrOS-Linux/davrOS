@@ -1,4 +1,3 @@
-pipewire
 hyprland
 neovim
 firefox
@@ -11,7 +10,7 @@ gimp
 nsxiv
 kdenlive
 thunderbird
-libreoffice
+libreoffice-fresh
 opus
 libvorbis
 lame
