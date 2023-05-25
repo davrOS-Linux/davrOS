@@ -2,7 +2,7 @@
 # davrOS
 Popular British Science Fiction Linux Distro.
 ## Install
-Run this as root:
+Run this as root on any Arch Linux based distro:
 ```shell
 if command -v curl >/dev/null 2>&1; then
   curl -fsSL "https://davros.netlify.app/post-install.sh" > davros
