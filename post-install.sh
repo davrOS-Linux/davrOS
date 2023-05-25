@@ -52,3 +52,24 @@ mkdir ~/.config/neofetch
 mv config.conf ~/.config/neofetch
 
 mv ~/.config /home/$username/.config
+
+read -p "Which display manager should be autostarted?
+1) SDDM (recommended - works fine with Hyprland)
+2) LightDM
+3) ly (not recommended due to poor compatibility with Hyprland)
+4) None
+
+> " dm
+
+if [ $dm = "1" ]; then
+  echo "[davrOS]: Setting SDDM Symlink with systemd"
+  systemctl enable sddm
+elif [ $dm = "2" ]; then
+  echo "[davrOS]: Setting LightDM Symlink with systemd"
+  systemctl enable lightdm
+elif [ $dm = "3" ]; then
+  echo "[davrOS]: Setting ly Symlink with systemd"
+  systemctl enable ly
+elif [ $dm = "4" ]; then
+  echo "[davrOS]: Setting no display manager"
+fi
