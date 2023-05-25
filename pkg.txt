@@ -1,6 +1,6 @@
 pipewire
 hyprland
-nvim
+neovim
 firefox
 pavucontrol
 kitty
