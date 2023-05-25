@@ -5,8 +5,8 @@ Popular British Science Fiction Linux Distro.
 | Component Type         | davrOS Component  |
 |------------------------|-------------------|
 | Base                   | Arch Linux x86_64 |
-| Desktop(s)             | Hyprland          |
-| Display Manager(s)     | lightdm           |
+| Desktop(s)             | `hyprland`        |
+| Display Manager(s)     | `lightdm`         |
 | Supported Architecture | x86_64            |
 ## Hall of Fame
 ### Neofetch Output
