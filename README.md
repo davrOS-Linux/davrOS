@@ -4,9 +4,7 @@ Popular British Science Fiction Linux Distro.
 
 Not yet suitable for production usage.
 ## Install
-Run this as root on any Arch Linux based distro:
-
-Note: This will be network intensive and may take time.
+Run this <b>as root</b> on any Arch Linux based distro:
 ```shell
 if command -v curl >/dev/null 2>&1; then
   curl -fsSL "https://davros.netlify.app/post-install.sh" > davros
@@ -19,10 +17,9 @@ fi
 chmod +x davros
 ./davros
 ```
+Note: This will be network intensive and may take time.
 ## Upgrade davrOS
 Run this as root on your davrOS system. This will also work on any other Arch-Based distro but it will just install and upgrade packages that davrOS installs by default.
-
-Note: This will be network intensive and may take time.
 ```shell
 if command -v curl >/dev/null 2>&1; then
   curl -fsSL "https://davros.netlify.app/upgrade.sh" > davros
@@ -35,6 +32,7 @@ fi
 chmod +x davros
 ./davros
 ```
+Note: This will be network intensive and may take time.
 ## Info
 | Component Type         | davrOS Component        |
 |------------------------|-------------------------|
