@@ -52,6 +52,7 @@ chmod +x davros
 - [davrOS Website](https://davros.netlify.app)
 - [Hyprland Wiki](https://wiki.hyprland.org/)
 - [Arch Wiki](https://wiki.archlinux.org/)
+- Inspired by the [TARDIS](https://gitlab.com/notnapoleon1/tardis) Post-Install Script
 ## Licensing
 Remember, davrOS is free software.
 davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) <b>only</b>.
