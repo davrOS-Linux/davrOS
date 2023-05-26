@@ -1,6 +1,8 @@
 ![davrOS](images/davros_logo_banner_lower.png)
 # davrOS
 Popular British Science Fiction Linux Distro.
+
+Not yet suitable for production usage.
 ## Install
 Run this as root on any Arch Linux based distro:
 
