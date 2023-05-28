@@ -51,8 +51,6 @@ rm -rf ~/.config/neofetch
 mkdir ~/.config/neofetch
 mv config.conf ~/.config/neofetch
 
-mv ~/.config /home/$username/.config
-
 echo "[davrOS]: stage 3.0: system config"
 echo "[davrOS]: stage 3.1: display manager / login manager"
 
@@ -76,3 +74,8 @@ elif [ $dm = "3" ]; then
 elif [ $dm = "4" ]; then
   echo "[davrOS]: Setting no display manager"
 fi
+
+mv ~/.config/zsh /home/$username/.config
+mv ~/.config/hyprland /home/$username/.config
+mv ~/.config/nvim /home/$username/.config
+mv ~/.config/neofetch /home/$username/.config
