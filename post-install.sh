@@ -12,7 +12,10 @@ Include = /etc/pacman.d/chaotic-mirrorlist " >> /etc/pacman.conf
 echo "[davrOS]: stage 1: Package Installation"
 
 # install all the packages listed in the pkg.txt file using pacman
-pacman -Syu --needed - < pkg.txt
+pacman -Syyu --needed - < pkg.txt
+
+# install some stuff from the aur using paru
+paru -Su eww
 
 echo "[davrOS]: stage 2: Configuration"
 
