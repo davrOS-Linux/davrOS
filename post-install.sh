@@ -78,6 +78,7 @@ elif [ $dm = "4" ]; then
   echo "[davrOS]: Setting no display manager"
 fi
 
+# move configs from root user's .config to the other one
 mv ~/.config/zsh /home/$username/.config
 mv ~/.config/hyprland /home/$username/.config
 mv ~/.config/nvim /home/$username/.config
