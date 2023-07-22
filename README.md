@@ -37,7 +37,7 @@ Note: This will be network intensive and may take time.
 | Component Type         | davrOS Component        |
 |------------------------|-------------------------|
 | Base                   | [Arch Linux](https://archlinux.org/) x86_64 |
-| Desktop(s)             | `hyprland`              |
+| Desktop(s)             | `hyprland`, cinnamon coming soon |
 | Display Manager(s)     | `lightdm`, `sddm`, `ly` |
 | Supported Architecture | x86_64                  |
 | Font                   | [Hermit](https://www.programmingfonts.org/#hermit): [Nerd Font](https://www.nerdfonts.com) |
