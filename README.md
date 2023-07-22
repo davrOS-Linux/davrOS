@@ -1,5 +1,5 @@
 ![davrOS](images/davros_logo_banner_lower.png)
-# davrOS
+# davrOS 
 Popular British Science Fiction Linux Distro.
 
 Not yet suitable for production usage.
@@ -51,6 +51,12 @@ Note: This will be network intensive and may take time.
 - [Hyprland Wiki](https://wiki.hyprland.org/)
 - [Arch Wiki](https://wiki.archlinux.org/)
 - Inspired by the [TARDIS](https://gitlab.com/notnapoleon1/tardis) Post-Install Script
+
+## Support Me
+If you would like to support me financially, then go ahead. The following link is the best way to do so.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8DSYQB)
+
 ## Licensing
 Remember, davrOS is free software.
 davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) <b>only</b>.
