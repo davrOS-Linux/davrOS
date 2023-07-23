@@ -20,8 +20,8 @@ paru -Su eww
 echo "[davrOS]: stage 2: Configuration"
 
 mkdir ~/.config
-read -p "what is your user account?: " username
-echo "username: $username"
+read -p "Please enter your user account that you will be using: " username
+echo "chosen username: $username"
 
 echo "[davrOS]: stage 2.1: Configuring neovim"
 
