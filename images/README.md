@@ -1,2 +1,4 @@
 # images
-- davros logo
+- davrOS branding
+- davrOS wallpapers
+- davrOS Markdown Showcase Images
