@@ -28,9 +28,18 @@ def stage_2():
     run("mkdir ~/.config")
     username = input("Please enter your user account that you will be using: ")
     print("chosen username: ")
+    steam = None
+    while steam == None:
+        steam = input("Would you like to use Steam? (y, n) ")
+        if steam == "y":
+            steam = True
+        elif steam == "n":
+            steam = False
+        else:
+            steam = None
     deck = None
     while deck == None:
-        deck = input("Are you using a Steam Deck? (y, n) ")
+        deck = input("Are you using a Steam Deck? (This option determines if steam shortcuts are placed if steam gets installed and also installs necessary software and drivers for the Steam Deck hardware.) (y, n) ")
         if deck == "y":
             deck = True
             print("deck: True")
