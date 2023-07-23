@@ -2,7 +2,7 @@
 # davrOS 
 Popular British Science Fiction Linux Distro.
 
-Not yet suitable for production usage.
+(Not yet suitable for production usage)
 ## Install
 Run this <b>as root</b> on any Arch Linux based distro:
 ```shell
