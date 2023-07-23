@@ -17,7 +17,7 @@ fi
 chmod +x davros
 ./davros
 ```
-Note: This will be network intensive and may take time.
+Note: Installation will be network intensive and may take time.
 ## Upgrade davrOS
 Run this as root on your davrOS system. This will also work on any other Arch-Based distro but it will just install and upgrade packages that davrOS installs by default.
 ```shell
