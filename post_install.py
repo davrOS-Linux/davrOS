@@ -56,3 +56,41 @@ def stage_2_1():
     # install nvchad (because its epic)
     run("git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim")
     print("[davrOS]: stage 2.2: configuring zsh")
+
+    # install zsh4humans (because its epic)
+    run('if command -v curl >/dev/null 2>&1; then\n  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"\nelse\n  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"\nfi')
+
+    print("[davrOS]: stage 2.3: configuring hyprland")
+
+    run('if command -v curl >/dev/null 2>&1; then\n  curl -fsSL https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf\nelse\n  wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/hypr/hyprland.conf\nfi')
+
+    run("mkdir ~/.config/hypr")
+    run("mv hyprland.conf ~/.config/hypr/hyprland.conf")
+
+    print("[davrOS]: stage 2.4: configuring neofetch")
+
+    run("wget -O- https://raw.githubusercontent.com/yuckdevchan/davrOS/main/custom/config/neofetch/config.conf")
+    run("rm -rf ~/.config/neofetch")
+    run("mkdir ~/.config/neofetch")
+    run("mv config.conf ~/.config/neofetch/config.conf")
+
+    print("[davrOS]: stage 3.0: system config")
+    print("[davrOS]: stage 3.1: display manager / login manager")
+
+    display_managers = {
+            "sddm": "Recommended", 
+            "lightdm": None, 
+            "ly": "not recommended", 
+            "None": None
+        }
+
+    dm_number = 0
+
+    for dm in display_managers.keys():
+        v_comment = ""
+        if display_managers[dm] == None:
+            v_comment = ""
+        else:
+            v_comment = f"- {display_managers[dm]}"
+        dm_number = dm_number + 1
+        print(f"{str(dm_number)}: {dm} {v_comment}")
