@@ -28,6 +28,17 @@ def stage_2():
     run("mkdir ~/.config")
     username = input("Please enter your user account that you will be using: ")
     print("chosen username: ")
+    deck = None
+    while deck == None:
+        deck = input("Are you using a Steam Deck? (y, n) ")
+        if deck == "y":
+            deck = True
+            print("deck: True")
+        elif deck == "n":
+            deck = False
+            print("deck: False")
+        else:
+            deck = None
     return username
 
 def stage_2_1():
