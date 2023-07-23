@@ -32,7 +32,7 @@ fi
 chmod +x davros
 ./davros
 ```
-Note: This will be network intensive and may take time.
+Note: Upgrading may be network intensive and may take time.
 ## Info
 | Component Type         | davrOS Component        |
 |------------------------|-------------------------|
