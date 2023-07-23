@@ -58,7 +58,9 @@ If you would like to support me financially, then go ahead. The following link i
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8DSYQB)
 
 ## Credits
-[Original Canopée Wallpaper](https://raw.githubusercontent.com/yuckdevchan/davrOS/main/images/wallpapers/Canopee%20with%20Branding.png) by [Ken Vermette](https://kver.ca/)
+[yuckdevchan](https://github.com/yuckdevchan) is the Main Developer of [davrOS](https://github.com/yuckdevchan/davrOS)
+
+[Ken Vermette](https://kver.ca/) created the [Original Canopée Wallpaper](https://kver.ca/2016/12/plasma-5-9-wallpaper-canopee/)
 
 ## Licensing
 Remember, davrOS is free software.
