@@ -58,9 +58,23 @@ If you would like to support me financially, then go ahead. The following link i
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8DSYQB)
 
 ## Credits
+### General
 [yuckdevchan](https://github.com/yuckdevchan) is the Main Developer of [davrOS](https://github.com/yuckdevchan/davrOS)
 
+### Art
+
 [Ken Vermette](https://kver.ca/) created the [Original Canopée Wallpaper](https://kver.ca/2016/12/plasma-5-9-wallpaper-canopee/)
+
+### Software Components Used in davrOS
+_Credit to both these contributors and everyone else who has made contributions to these projects._
+
+[yuckdevchan](https://github.com/yuckdevchan) authored the post install scripts and configuration files for [davrOS](https://github.com/yuckdevchan/davrOS)
+
+[Vaxry](https://github.com/vaxerski) created [Hyprland](https://github.com/hyprwm/Hyprland)
+
+[Roman Perepelitsa](https://github.com/romkatv) created [zsh4humans](https://github.com/romkatv/zsh4humans)
+
+[dylanaraps](https://github.com/dylanaraps) created [neofetch](https://github.com/dylanaraps/neofetch)
 
 ## Licensing
 Remember, davrOS is free software.
