@@ -57,6 +57,9 @@ If you would like to support me financially, then go ahead. The following link i
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8DSYQB)
 
+## Credits
+[Original Canopée Wallpaper](https://raw.githubusercontent.com/yuckdevchan/davrOS/main/images/wallpapers/Canopee%20with%20Branding.png) by [Ken Vermette](https://kver.ca/)
+
 ## Licensing
 Remember, davrOS is free software.
 davrOS is licensed under the [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) <b>only</b>.
