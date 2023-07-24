@@ -2,14 +2,15 @@ import subprocess
 
 # Function for running shell commands
 def run(command_string):
-    subprocess.run(command_string, shell=True)
+    subprocess.run(f"$SUDO {command_string}", shell=True)
 
 def stage_0():
+    run("SUDO=''\nif (( $EUID != 0 )); then\n    SUDO='sudo'\nfi)
+    
     print("[davrOS]: stage 0: Repository Configuration")
 
     # add chaotic aur (because why not, right?... right?)
     run("pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com")
-    run("")
     run("pacman-key --lsign-key FBA220DFC880C036")
     run("pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'")
     run('echo "[chaotic-aur]\nInclude = /etc/pacman.d/chaotic-mirrorlist " >> /etc/pacman.conf')
