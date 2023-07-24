@@ -94,3 +94,9 @@ def stage_2_1():
             v_comment = f"- {display_managers[dm]}"
         dm_number = dm_number + 1
         print(f"{str(dm_number)}: {dm} {v_comment}")
+
+stage_0()
+stage_1()
+stage_2()
+stage_2_1()
+
