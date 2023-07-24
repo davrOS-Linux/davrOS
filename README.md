@@ -6,16 +6,8 @@ Popular British Science Fiction Linux Distro.
 ## Install
 Run this <b>as root</b> on any Arch Linux based distro:
 ```shell
-if command -v curl >/dev/null 2>&1; then
-  curl -fsSL "https://davros.netlify.app/post-install.sh" > davros
-  curl -fsSL "https://davros.netlify.app/pkg.txt" > pkg.txt
-else
-  wget "https://davros.netlify.app/post-install.sh"
-  wget "https://davros.netlify.app/pkg.txt"
-  mv post-install.sh davros
-fi
-chmod +x davros
-./davros
+curl -fsSL https://davros.netlify.app/davros > davros
+chmod +x davros && ./davros
 ```
 Note: Installation will be network intensive and may take time.
 ## Upgrade davrOS
