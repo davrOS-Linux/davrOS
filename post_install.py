@@ -5,7 +5,7 @@ def run(command_string):
     subprocess.run(f"$SUDO {command_string}", shell=True)
 
 def stage_0():
-    run("SUDO=''\nif (( $EUID != 0 )); then\n    SUDO='sudo'\nfi)
+    run("SUDO=''\nif (( $EUID != 0 )); then\n    SUDO='sudo'\nfi")
     
     print("[davrOS]: stage 0: Repository Configuration")
 
