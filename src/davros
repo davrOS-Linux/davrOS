@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # bash wrapper for post-install.py
+# Requires an active internet connection
 pacman -Sy --needed python wget sudo
 mkdir ~/.config/davros
 cd ~/.config/davros
-wget https://davros.netlify.app/pkg.txt https://davros.netlify.app/post_install.py https://davros.netlify.app/aur-pkg.txt https://davros.netlify.app/upgrade.sh
+wget https://davros.netlify.app/src/pkg.txt https://davros.netlify.app/src/post_install.py https://davros.netlify.app/src/aur-pkg.txt https://davros.netlify.app/src/upgrade.sh
 python post_install.py
