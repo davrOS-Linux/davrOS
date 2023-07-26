@@ -1,10 +1,8 @@
 import subprocess
-
+from modules.bash import run
+from modules.config import config_dirs
 
 # Function for running shell commands
-def run(bash_command_string):
-    subprocess.run(f"$SUDO {bash_command_string}", shell=True)
-
 
 def stage_0():
     run("SUDO=''\nif (( $EUID != 0 )); then\n    SUDO='sudo'\nfi")
@@ -121,9 +119,11 @@ def stage_2_1():
 
     print(f"chosen display manager: {chosen_display_manager}")
 
-    config_directories = [
+    config_dirs_list = [
         "~/.config/zsh",
         "~/.config/hyprland",
         "~/.config/nvim",
         "~/.config/neofetch"
     ]
+
+    config_dirs(config_dirs_list)
