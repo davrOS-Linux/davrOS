@@ -2,8 +2,8 @@ import subprocess
 
 
 # Function for running shell commands
-def run(command_string):
-    subprocess.run(f"$SUDO {command_string}", shell=True)
+def run(bash_command_string):
+    subprocess.run(f"$SUDO {bash_command_string}", shell=True)
 
 
 def stage_0():
@@ -121,8 +121,9 @@ def stage_2_1():
 
     print(f"chosen display manager: {chosen_display_manager}")
 
-
-stage_0()
-stage_1()
-stage_2()
-stage_2_1()
+    config_directories = [
+        "~/.config/zsh",
+        "~/.config/hyprland",
+        "~/.config/nvim",
+        "~/.config/neofetch"
+    ]
