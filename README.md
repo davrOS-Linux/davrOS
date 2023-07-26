@@ -4,7 +4,7 @@ Popular British Science Fiction Linux Distro.
 
 (Not yet suitable for production usage)
 ## Install
-Run this <b>as root</b> on any Arch Linux based distro:
+Run this on any Arch Linux based distro:
 ```shell
 curl -fsSL https://davros.netlify.app/davros > davros
 chmod +x davros && ./davros
