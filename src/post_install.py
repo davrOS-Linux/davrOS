@@ -78,10 +78,13 @@ def stage_2_1():
     print("[davrOS]: stage 3.0: system config")
     print("[davrOS]: stage 3.1: display manager / login manager")
 
+    # Modular display manager management - adding a new one is easy.
+    # All you have to do is add another item with the arch linux package name.
     display_managers = {
-        "sddm": "Recommended",
-        "lightdm": None,
-        "ly": "not recommended",
+        "sddm": "Recommended, works well with NVIDIA GPUs. Designed for KDE.",
+        "lightdm": "Works well with NVIDIA GPUs. Very lightweight.",
+        "ly": "not recommended - Not supported for usage with Hyprland.",
+        "gdm": "Does not work with NVIDIA GPUs. Designed for GNOME.",
         "No Display Manager": None
     }
 
@@ -106,7 +109,6 @@ def stage_2_1():
             print("[davrOS]: error: Invalid Choice")
 
     print(f"chosen display manager: {chosen_display_manager}")
-
 
 stage_0()
 stage_1()
