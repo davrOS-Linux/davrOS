@@ -1,6 +1,7 @@
 import subprocess
 from modules.bash import run
 from modules.config import config_dirs
+from modules.display_manager import set_display_manager
 
 # Function for running shell commands
 
@@ -117,7 +118,8 @@ def stage_2_1():
         if chosen_display_manager not in display_manager_choices:
             print("[davrOS]: error: Invalid Choice")
 
-    print(f"chosen display manager: {chosen_display_manager}")
+    print(f"Chosen display manager: {chosen_display_manager}")
+    set_display_manager(chosen_display_manager)
 
     config_dirs_list = [
         "~/.config/zsh",
