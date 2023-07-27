@@ -6,4 +6,4 @@ mkdir ~/.config/davros
 cd ~/.config/davros
 wget https://davros.netlify.app/src/aur-pkg.txt https://davros.netlify.app/src/main.py https://davros.netlify.app/src/pkg.txt https://davros.netlify.app/src/post_install.py https://davros.netlify.app/src/upgrade.sh
 wget https://davros.netlify.app/src/modules/bash.py https://davros.netlify.app/src/modules/config.py
-python post_install.py
+python main.py
