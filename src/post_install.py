@@ -1,4 +1,3 @@
-import subprocess
 from modules.bash import run
 from modules.config import config_dirs
 from modules.display_manager import set_display_manager
@@ -58,7 +57,7 @@ def stage_2():
     return username
 
 
-def stage_2_1():
+def stage_2_1(username):
     print("[davrOS]: stage 2.1: Configuring neovim")
 
     # install NvChad (because its epic)
@@ -128,4 +127,4 @@ def stage_2_1():
         "~/.config/neofetch"
     ]
 
-    config_dirs(config_dirs_list)
+    config_dirs(config_dirs_list, username)
