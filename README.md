@@ -1,6 +1,6 @@
 ![davrOS](images/davros_logo_banner_lower.png)
 # davrOS 
-Popular British Science Fiction Linux Distro. A Post-Install script which includes Hyprland for Arch Linux.
+Popular British Science Fiction Linux Distro. A Post-Install script for Arch Linux written in Python.
 
 (Not yet suitable for production usage)
 ## Install
