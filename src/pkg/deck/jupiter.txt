@@ -1,0 +1,8 @@
+gamescope
+steam-im-modules
+jupiter-hw-support
+jupiter-legacy-support
+jupiter-fan-control
+mesa
+mangohud
+lib32-mangohud
