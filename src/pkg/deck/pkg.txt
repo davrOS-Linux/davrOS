@@ -1,0 +1,2 @@
+vulkan-radeon
+lib32-vulkan-radeon
