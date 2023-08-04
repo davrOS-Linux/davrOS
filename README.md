@@ -37,23 +37,30 @@ Note: Upgrading may be network intensive and may take time.
 | Shell                  | `zsh`                   |
 | Theme(s)               | [Catppuccin](https://github.com/catppuccin/catppuccin) Mocha |
 
-|                                   | ChimeraOS          | SteamOS 3.x        | HoloISO                |
-| --------------------------------- | ------------------ | ------------------ | ---------------------- |
-| Based on                          | Arch Linux         | Arch Linux         | SteamOS 3.x/Arch Linux |
-| Desktop                           | Gnome              | KDE Plasma         | KDE Plasma             |
-| Atomic updates                    | :heavy_check_mark: | :heavy_check_mark: | :x:                    |
-| Read-write root filesystem        | :x:                | :x:                | :heavy_check_mark:     |
-| Custom partitioning               | :x:                | :x:                | :heavy_check_mark:     |
-| General hardware support          | :heavy_check_mark: | :x:                | :heavy_check_mark:     |
-| Up-to-date base packages          | :heavy_check_mark: | :x:                | :x:                    |
-| Remote app installation           | :heavy_check_mark: | :x:                | :x:                    |
-| Built-in EGS & GOG support        | :heavy_check_mark: | :x:                | :x:                    |
-| Built-in emulation support        | :heavy_check_mark: | :x:                | :x:                    |
-| Additional game tweaks            | :heavy_check_mark: | :x:                | :x:                    |
-| Additional artwork                | :heavy_check_mark: | :x:                | :x:                    |
-| Built-in GE Proton                | :heavy_check_mark: | :x:                | :x:                    |
-| Full source publicly hosted       | :heavy_check_mark: | :x:                | :x:                    |
-| Forkable infrastructure           | :heavy_check_mark: | :x:                | :x:                    |
+## OS Comparison
+
+|                                        | davrOS                   | ChimeraOS  | SteamOS 3.x  | HoloISO                | Arch Linux | Endeavour OS                                                 | Garuda Linux                                                 |
+|----------------------------------------|--------------------------|------------|--------------|------------------------|------------|--------------------------------------------------------------|--------------------------------------------------------------|
+| Based on                               | Arch Linux               | Arch Linux | Arch Linux   | SteamOS 3.x/Arch Linux | ~          | Arch Linux                                                   | Arch Linux                                                   |
+| Desktop                                | Hyprland                 | Gnome      | KDE Plasma   | KDE Plasma             | None       | XFCE/GNOME/KDE/MATE/Cinnamon/Budgie/LXQT/LXDE/i3/bspwm/worms | KDE/XFCE/GNOME/LXQt-kwin/Cinnamon/MATE/Wayfire/Qtile/i3/Sway |
+| Display manager                        | SDDM/GDM/LightDM/ly/None | ?          | SDDM Wayland | SDDM Wayland           | None       | ~                                                            | sddm                                                         |
+| Officially Supported?                  | 🔴                        | 🔴          | 🟢            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Atomic updates                         | 🟢                        | 🟢          | 🟢            | 🔴                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| Read-write root filesystem             | 🟢                        | 🔴          | ~            | 🟢                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| Custom partitioning                    | 🟢                        | 🔴          | 🔴            | 🟢                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| General hardware support               | 🟢                        | 🟢          | 🔴            | 🟢                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| Up-to-date base packages               | 🟢                        | 🟢          | 🔴            | 🔴                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| Can be used without Steam              | 🟢                        | 🔴          | 🔴            | 🔴                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| Installable on Deck (without keyboard) | 🔴                        | 🟢          | 🟢            | 🟢                      | 🔴          | 🟢                                                            | 🟢                                                            |
+| Remote app installation                | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Built-in Epic Games support            | 🟢                        | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Built-in GOG support                   | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Built-in emulation support             | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Additional game tweaks                 | 🔴                        | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Additional artwork                     | 🔴                        | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | 🔴                                                            |
+| Built-in GE Proton                     | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴          | 🔴                                                            | Installable in Garuda Gamer                                  |
+| Full source publicly hosted            | 🟢                        | 🟢          | 🔴            | 🔴                      | 🟢          | 🟢                                                            | 🟢                                                            |
+| Forkable infrastructure                | 🟢                        | 🟢          | 🔴            | 🔴                      | 🟢          | 🟢                                                            | 🟢                                                            |
 
 ## Hall of Fame
 ### Neofetch Output
