@@ -36,6 +36,25 @@ Note: Upgrading may be network intensive and may take time.
 | Font                   | [Hermit](https://www.programmingfonts.org/#hermit): [Nerd Font](https://www.nerdfonts.com) |
 | Shell                  | `zsh`                   |
 | Theme(s)               | [Catppuccin](https://github.com/catppuccin/catppuccin) Mocha |
+
+|                                   | ChimeraOS          | SteamOS 3.x        | HoloISO                |
+| --------------------------------- | ------------------ | ------------------ | ---------------------- |
+| Based on                          | Arch Linux         | Arch Linux         | SteamOS 3.x/Arch Linux |
+| Desktop                           | Gnome              | KDE Plasma         | KDE Plasma             |
+| Atomic updates                    | :heavy_check_mark: | :heavy_check_mark: | :x:                    |
+| Read-write root filesystem        | :x:                | :x:                | :heavy_check_mark:     |
+| Custom partitioning               | :x:                | :x:                | :heavy_check_mark:     |
+| General hardware support          | :heavy_check_mark: | :x:                | :heavy_check_mark:     |
+| Up-to-date base packages          | :heavy_check_mark: | :x:                | :x:                    |
+| Remote app installation           | :heavy_check_mark: | :x:                | :x:                    |
+| Built-in EGS & GOG support        | :heavy_check_mark: | :x:                | :x:                    |
+| Built-in emulation support        | :heavy_check_mark: | :x:                | :x:                    |
+| Additional game tweaks            | :heavy_check_mark: | :x:                | :x:                    |
+| Additional artwork                | :heavy_check_mark: | :x:                | :x:                    |
+| Built-in GE Proton                | :heavy_check_mark: | :x:                | :x:                    |
+| Full source publicly hosted       | :heavy_check_mark: | :x:                | :x:                    |
+| Forkable infrastructure           | :heavy_check_mark: | :x:                | :x:                    |
+
 ## Hall of Fame
 ### Neofetch Output
 ![neofetch output](images/showcase/neofetch_v3.png)
