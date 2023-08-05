@@ -1,0 +1,4 @@
+jupiter-hw-support
+jupiter-legacy-support
+jupiter-fan-control
+mesa

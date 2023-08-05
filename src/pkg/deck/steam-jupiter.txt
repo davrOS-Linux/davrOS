@@ -1,0 +1,4 @@
+steam-im-modules
+mangohud
+lib32-mangohud
+gamescope

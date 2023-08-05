@@ -1,2 +1,3 @@
 catppuccin-gtk-theme-mocha
 catppuccin-cursors-mocha
+heroic-games-launcher-bin
