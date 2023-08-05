@@ -76,8 +76,23 @@ def stage_2():
         else:
             chimera = None
             print("Error: Invalid Choice")
+        return chimera
 
-def stage_2_1(username):
+    emudeck = None
+
+    while emudeck == None:
+        emudeck = input("Would you like Emudeck? If yes, the installer will be placed on your Desktop. (y, n)")
+        if emudeck == "y":
+            emudeck = True
+            print("emudeck: True")
+        elif emudeck == "n":
+            print("emudeck: False")
+        else:
+            emudeck = None
+            print("Error: Invalid Choice")
+        return emudeck
+
+def stage_2_1(username, emudeck):
     print("[davrOS]: stage 2.1: Configuring neovim")
 
     # install NvChad (because its epic)
@@ -147,4 +162,4 @@ def stage_2_1(username):
         "~/.config/neofetch"
     ]
 
-    config_dirs(config_dirs_list, username)
+    config_dirs(config_dirs_list, username, emudeck)
