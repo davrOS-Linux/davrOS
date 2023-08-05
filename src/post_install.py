@@ -28,11 +28,13 @@ def stage_1():
 
 
 def stage_2():
-    run("[davrOS]: stage 2: Configuration")
+    print("[davrOS]: stage 2: Configuration")
     run("mkdir ~/.config")
     username = input("Please enter your user account that you will be using: ")
     print("chosen username: ")
+
     steam = None
+
     while steam is None:
         steam = input("Would you like to use Steam? (y, n) ")
         if steam == "y":
@@ -41,7 +43,10 @@ def stage_2():
             steam = False
         else:
             steam = None
+            print("Error: Invalid Choice")
+
     deck = None
+
     while deck is None:
         deck = input(
             "Are you using a Steam Deck? (This option determines if steam shortcuts are placed if steam gets "
@@ -54,8 +59,23 @@ def stage_2():
             print("deck: False")
         else:
             deck = None
+            print("Error: Invalid Choice")
     return username
 
+    chimera = None
+
+    while chimera == None:
+        chimera = input("Would you like Chimera installed? Allows you to remotely install games through a Web UI. (y, n)")
+        if chimera == "y":
+            chimera = True
+            print("chimera: True")
+            run("paru -S chimera")
+        elif chimera == "n":
+            chimera = False
+            print("chimera: False")
+        else:
+            chimera = None
+            print("Error: Invalid Choice")
 
 def stage_2_1(username):
     print("[davrOS]: stage 2.1: Configuring neovim")
