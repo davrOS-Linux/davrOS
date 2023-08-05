@@ -44,23 +44,23 @@ Note: Upgrading may be network intensive and may take time.
 | Based on                               | Arch Linux               | Arch Linux | Arch Linux   | SteamOS 3.x/Arch Linux | Arch Linux                            |
 | Desktop                                | Hyprland                 | Gnome      | KDE Plasma   | KDE Plasma             | [Full List](https://garudalinux.org/) |
 | Display manager                        | SDDM/GDM/LightDM/ly/None | ?          | SDDM Wayland | SDDM Wayland           | sddm                                  |
-| Officially Supported?                  | 🔴                        | 🔴          | 🟢            | 🔴                      | 🔴                                     |
-| Atomic updates                         | 🟢                        | 🟢          | 🟢            | 🔴                      | 🟢                                     |
-| Read-write root filesystem             | 🟢                        | 🔴          | ~            | 🟢                      | 🟢                                     |
-| Custom partitioning                    | 🟢                        | 🔴          | 🔴            | 🟢                      | 🟢                                     |
-| General hardware support               | 🟢                        | 🟢          | 🔴            | 🟢                      | 🟢                                     |
-| Up-to-date base packages               | 🟢                        | 🟢          | 🔴            | 🔴                      | 🟢                                     |
-| Can be used without Steam              | 🟢                        | 🔴          | 🔴            | 🔴                      | 🟢                                     |
-| Installable on Deck (without keyboard) | 🔴                        | 🟢          | 🟢            | 🟢                      | 🟢                                     |
-| Remote app installation                | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴                                     |
-| Built-in Epic Games support            | 🟢                        | 🟢          | 🔴            | 🔴                      | 🔴                                     |
-| Built-in GOG support                   | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴                                     |
-| Built-in emulation support             | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | 🔴                                     |
-| Additional game tweaks                 | 🔴                        | 🟢          | 🔴            | 🔴                      | 🔴                                     |
-| Additional artwork                     | 🔴                        | 🟢          | 🔴            | 🔴                      | 🔴                                     |
-| Built-in GE Proton                     | 🔴 - Planned              | 🟢          | 🔴            | 🔴                      | Installable in Garuda Gamer           |
-| Full source publicly hosted            | 🟢                        | 🟢          | 🔴            | 🔴                      | 🟢                                     |
-| Forkable infrastructure                | 🟢                        | 🟢          | 🔴            | 🔴                      | 🟢                                     |                                                      |
+| Officially Supported?                  | 🔴                       | 🔴         | 🟢           | 🔴                     | 🔴                                    |
+| Atomic updates                         | 🟢                       | 🟢         | 🟢           | 🔴                     | 🟢                                    |
+| Read-write root filesystem             | 🟢                       | 🔴         | ~            | 🟢                     | 🟢                                    |
+| Custom partitioning                    | 🟢                       | 🔴         | 🔴           | 🟢                     | 🟢                                    |
+| General hardware support               | 🟢                       | 🟢         | 🔴           | 🟢                     | 🟢                                    |
+| Up-to-date base packages               | 🟢                       | 🟢         | 🔴           | 🔴                     | 🟢                                    |
+| Can be used without Steam              | 🟢                       | 🔴         | 🔴           | 🔴                     | 🟢                                    |
+| Installable on Deck (without keyboard) | 🔴                       | 🟢         | 🟢           | 🟢                     | 🟢                                    |
+| Remote app installation                | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Built-in Epic Games support            | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Built-in GOG support                   | 🔴 - Planned             | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Built-in emulation support             | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Additional game tweaks                 | 🔴                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Additional artwork                     | 🔴                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Built-in GE Proton                     | 🔴 - Planned             | 🟢         | 🔴           | 🔴                     | Installable in Garuda Gamer           |
+| Full source publicly hosted            | 🟢                       | 🟢         | 🔴           | 🔴                     | 🟢                                    |
+| Forkable infrastructure                | 🟢                       | 🟢         | 🔴           | 🔴                     | 🟢                                    |                                                      |
 
 ## Hall of Fame
 ### Neofetch Output
