@@ -43,7 +43,7 @@ Note: Upgrading may be network intensive and may take time.
 |----------------------------------------|--------------------------|------------|--------------|------------------------|---------------------------------------|
 | Based on                               | Arch Linux               | Arch Linux | Arch Linux   | SteamOS 3.x/Arch Linux | Arch Linux                            |
 | Desktop                                | Hyprland                 | Gnome      | KDE Plasma   | KDE Plasma             | [Full List](https://garudalinux.org/) |
-| Display manager                        | SDDM/GDM/LightDM/ly/None | ?          | SDDM Wayland | SDDM Wayland           | sddm                                  |
+| Display manager                        | SDDM/GDM/LightDM/ly/None | ?          | SDDM Wayland | SDDM Wayland           | SDDM                                  |
 | Officially Supported?                  | 🔴                       | 🔴         | 🟢           | 🔴                     | 🔴                                    |
 | Atomic updates                         | 🟢                       | 🟢         | 🟢           | 🔴                     | 🟢                                    |
 | Read-write root filesystem             | 🟢                       | 🔴         | ~            | 🟢                     | 🟢                                    |
