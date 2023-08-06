@@ -54,7 +54,8 @@ Note: Upgrading may be network intensive and may take time.
 | Installable on Deck (without keyboard) | 🔴                       | 🟢         | 🟢           | 🟢                     | 🟢                                    |
 | Remote app installation                | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in Epic Games support            | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
-| Built-in GOG support                   | 🔴 - Planned             | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Built-in GOG support                   | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Built-in Amazon Games support          | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in emulation support             | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Additional game tweaks                 | 🔴                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Additional artwork                     | 🔴                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
