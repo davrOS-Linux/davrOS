@@ -51,14 +51,14 @@ chmod +x davros
 | General hardware support               | 🟢                       | 🟢         | 🔴           | 🟢                     | 🟢                                    |
 | Up-to-date base packages               | 🟢                       | 🟢         | 🔴           | 🔴                     | 🟢                                    |
 | Can be used without Steam              | 🟢                       | 🔴         | 🔴           | 🔴                     | 🟢                                    |
-| Installable on Deck (without keyboard) | 🔴                       | 🟢         | 🟢           | 🟢                     | 🟢                                    |
+| Installable on Deck (without keyboard) | 🔴 - Not Planned         | 🟢         | 🟢           | 🟢                     | 🟢                                    |
 | Remote app installation                | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in Epic Games support            | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in GOG support                   | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in Amazon Games support          | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in emulation support             | 🟢                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Additional game tweaks                 | 🔴                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
-| Additional artwork                     | 🔴                       | 🟢         | 🔴           | 🔴                     | 🔴                                    |
+| Additional artwork                     | 🔴 - Planned             | 🟢         | 🔴           | 🔴                     | 🔴                                    |
 | Built-in GE Proton                     | 🔴 - Planned             | 🟢         | 🔴           | 🔴                     | Installable in Garuda Gamer           |
 | Full source publicly hosted            | 🟢                       | 🟢         | 🔴           | 🔴                     | 🟢                                    |
 | Forkable infrastructure                | 🟢                       | 🟢         | 🔴           | 🔴                     | 🟢                                    |                                                      |
