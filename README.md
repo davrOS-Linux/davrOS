@@ -4,7 +4,7 @@ Popular British Science Fiction Linux Distro. A Post-Install script for Arch Lin
 
 (Not yet suitable for production usage)
 ## Install
-Run this on any Arch Linux based distro:
+Run this on an Arch Linux base install:
 ```shell
 curl -fsSL https://davros.netlify.app/davros > davros
 chmod +x davros && ./davros
