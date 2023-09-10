@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # bash wrapper for post-install.py
-# Requires an active internet connection
+# Requires an active internet connection!
 pacman -Sy --needed python wget sudo
 mkdir ~/.config/davros
 cd ~/.config/davros
